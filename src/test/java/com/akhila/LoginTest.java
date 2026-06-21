@@ -1,8 +1,6 @@
 package com.akhila;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import com.akhila.pages.LoginPage;
 
 public class LoginTest {
@@ -21,7 +19,6 @@ public class LoginTest {
 
         System.out.println("Username: " + username);
         System.out.println("Password: " + password);
-
         //driver.quit();
     }
 
